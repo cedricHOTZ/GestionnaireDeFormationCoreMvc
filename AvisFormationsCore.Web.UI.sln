@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29820.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisFormationsCore.Web.UI", "AvisFormationsCore.Web.UI\AvisFormationsCore.Web.UI.csproj", "{DA22290F-7085-4071-BFE7-220BA936F4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{8C2D811D-8C44-40BF-9F63-0C7BECF46557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA22290F-7085-4071-BFE7-220BA936F4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA22290F-7085-4071-BFE7-220BA936F4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA22290F-7085-4071-BFE7-220BA936F4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA22290F-7085-4071-BFE7-220BA936F4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2D811D-8C44-40BF-9F63-0C7BECF46557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2D811D-8C44-40BF-9F63-0C7BECF46557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2D811D-8C44-40BF-9F63-0C7BECF46557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2D811D-8C44-40BF-9F63-0C7BECF46557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A08F49-1D40-4180-9DF4-14DC4CF88D55}
+	EndGlobalSection
+EndGlobal
