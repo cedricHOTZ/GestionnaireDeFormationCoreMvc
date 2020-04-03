@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Data
 {
@@ -17,6 +18,11 @@ namespace Data
         public List<Formation> GetAllFormation()
         {
             return _formations;
+        }
+
+        public object GetFormationById(int iIdformation)
+        {
+            return _formations.FirstOrDefault(f => f.Id == iIdformation);
         }
     }
 }

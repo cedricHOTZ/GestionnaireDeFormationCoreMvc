@@ -17,6 +17,7 @@ namespace AvisFormationsCore.Web.UI.Controllers
             vm.Nombre = 10;
             return View(vm);
         }
+        //affiche toutes les formations
         public IActionResult ToutesLesFormations()
         {
             FormationMemoryRepository repository = new FormationMemoryRepository();
@@ -25,6 +26,27 @@ namespace AvisFormationsCore.Web.UI.Controllers
             return View(ListFormations);
 
            
+        }
+
+        //affiche la description d'une formation
+
+        public IActionResult DetailFormation(string idformation)
+        {
+            int iIdformation = 1;
+            if(!Int32.TryParse(idformation,out iIdformation))
+            {
+                return RedirectToAction("ToutesLesFormations");
+            }
+            FormationMemoryRepository repository = new FormationMemoryRepository();
+            var formation = repository.GetFormationById(iIdformation);
+            if(formation == null)
+            {
+                return RedirectToAction("ToutesLesFormations");
+            }
+
+            return View(formation);
+
+
         }
     }
 }

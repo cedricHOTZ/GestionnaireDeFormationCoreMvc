@@ -158,3 +158,4 @@ C:\Users\Utilisateur\Documents\Asp.net\AvisFormationsCore.Web.UI\AvisFormationsC
 C:\Users\Utilisateur\Documents\Asp.net\AvisFormationsCore.Web.UI\AvisFormationsCore.Web.UI\bin\Debug\netcoreapp3.1\Data.dll
 C:\Users\Utilisateur\Documents\Asp.net\AvisFormationsCore.Web.UI\AvisFormationsCore.Web.UI\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\Utilisateur\Documents\Asp.net\AvisFormationsCore.Web.UI\AvisFormationsCore.Web.UI\obj\Debug\netcoreapp3.1\Razor\Views\Formation\ToutesLesFormations.cshtml.g.cs
+C:\Users\Utilisateur\Documents\Asp.net\AvisFormationsCore.Web.UI\AvisFormationsCore.Web.UI\obj\Debug\netcoreapp3.1\Razor\Views\Formation\DetailFormation.cshtml.g.cs
